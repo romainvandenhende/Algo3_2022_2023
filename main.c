@@ -47,7 +47,7 @@ int main(void)
     char a;
     int * p;
      p = &a;
-        printf("Entrez un caractère :");
+        printf("Entrez un caractÃ¨re :");
         scanf("%c",&a);
         printf("\n Valeur : %c \n",a);
         printf("\n Addresse : %d \n",&p);
@@ -73,10 +73,10 @@ int main(void)
 }
 void main()
 {
-    int e=50, r=20, t=350;
+    int i=50, o=20, p=350;
     int max = 0;
     int min = 0;
-    printf("\n i = %d o = %d p = %d \n",p,o,p);
+    printf("\n i = %d o = %d p = %d \n",i,o,p);
     retourne(&i, &o, &p, &max, &min);
     printf("\n Valeur la plus grande = %d \n Valeur la plus petite = %d",max,min);
 }
